@@ -1,0 +1,16 @@
+.local-school-sec{
+    margin: 80px 0;
+}
+.local-school-content{
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+}
+
+.local-school-content h2{
+    font-size: 47px;
+}
+
+.local-school-content h2 span{
+    color: #6EB43E;
+}

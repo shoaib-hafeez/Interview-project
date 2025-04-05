@@ -1,0 +1,11 @@
+.footer-top-banner {
+    background-color: #4CAF50; /* Green */
+  }
+  
+  .footer-main {
+    background-color: #121212; /* Black */
+  }
+  
+  .footer-main ul li {
+    margin-bottom: 5px;
+  }
