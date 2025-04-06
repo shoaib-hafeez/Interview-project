@@ -13,6 +13,8 @@
     position: relative;
     flex: 1;
   }
+
+
   
   .highlight-card {
     background-color: #4CAF50; /* Highlighted green */

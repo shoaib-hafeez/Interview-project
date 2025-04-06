@@ -1,11 +1,88 @@
+/* Original Styles Preserved */
 .footer-top-banner {
-    background-color: #4CAF50; /* Green */
+  background-color:#457426FA; 
+  height: 100px;
+}
+
+.footer-main {
+  background-image: url(../../../assets/images/footer-img/footer.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-color: black; */
+
+  
+
+}
+
+.footer-main ul li {
+  margin-bottom: 5px;
+}
+
+/* Responsive Additions */
+@media (max-width: 1199px) {
+  .footer-main {
+    padding: 3rem 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .footer-main {
+    padding: 2.5rem 0;
+  }
+  
+  .footer-main h5 {
+    font-size: 1.25rem;
+  }
+  
+  .footer-main h6 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-top-banner {
+    padding: 1rem !important;
+    text-align: center;
   }
   
   .footer-main {
-    background-color: #121212; /* Black */
+    padding: 2rem 0;
   }
   
-  .footer-main ul li {
-    margin-bottom: 5px;
+  .footer-main h5 {
+    font-size: 1.2rem;
   }
+  
+  .footer-main h6 {
+    margin-top: 1rem;
+  }
+  
+  .footer-main ul {
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .footer-top-banner span {
+    font-size: 0.8rem !important;
+  }
+  
+  .footer-top-banner button {
+    font-size: 0.7rem;
+    padding: 0.25rem 0.5rem;
+  }
+  
+  .footer-main {
+    padding: 1.5rem 0;
+  }
+  
+  .footer-main p,
+  .footer-main ul li {
+    font-size: 0.85rem;
+  }
+  
+  .footer-main .small {
+    font-size: 0.8rem !important;
+  }
+}

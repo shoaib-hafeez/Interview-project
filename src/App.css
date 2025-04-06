@@ -1,18 +1,5 @@
-.primary-border-btn{
-    padding: 4px 20px;
-    border: 3px solid #fff;
-    border-radius: 30px;
-    font-size: 15px;
-    background-color: transparent;
-    color: #ffff;
-    font-weight: 700;
-}
-.primary-btn{
-    padding: 4px 20px;
-    border: 3px solid #578E31;
-    border-radius: 30px;
-    font-size: 15px;
-    background-color: #578E31;
-    color: #ffff;
-    font-weight: 700;
+.wraper{
+    width: 100%;
+    max-width: 70%;
+    margin: 0 auto;
 }

@@ -4,7 +4,7 @@ import img1 from '../../../assets/images/localschool.png'
 const LocalSchool = () => {
   return (
     <section className='local-school-sec'>
-        <div className="container">
+        <div className="wraper">
             <div className="row">
                 <div className="col-md-12">
                     <div className='local-school-content'>

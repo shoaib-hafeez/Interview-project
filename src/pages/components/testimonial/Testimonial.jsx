@@ -24,7 +24,7 @@ const Testimonial = () => {
 
           {/* Testimonial 2 (highlighted) */}
           <Col md={4} className="mb-4 d-flex">
-            <Card className="testimonial-card highlight-card text-white">
+            <Card className="testimonial-card av highlight-card text-white bg-success ">
               <Card.Body>
                 <div className="quote-icon">“</div>
                 <Card.Text className="small">

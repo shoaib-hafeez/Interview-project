@@ -1,9 +1,127 @@
-.banner-sec{
+.wrapper-banner {
     width: 100%;
-    height: 90vh;
-    background-image: url(../../../assets//images//Main-Banner.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #C7FDA2;
+    padding: 2rem 0;
+}
+
+.banner-heading {
+    font-family: Alata;
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 1;
+    letter-spacing: -3%;
+}
+
+.banner-title {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin: 1rem 0;
+}
+
+.team-container {
+    position: relative;
+    margin-top: 2rem;
+    z-index: 999;
+    bottom: 60px!important;
+    right: 320px!important;
+}
+
+.team-img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
     object-fit: cover;
+}
+
+.dr-images-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.dr-img1 {
+    height: 282px;
+    /* max-width: 100%; */
+    width: 276px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 999;
+    border: 15px solid green;
+    top: 140px!important;
+}
+
+.dr-img2 {
+    width: 100%;
+    max-width: 526px;
+    height: 529px!important;
+    border-radius: 250px;
+    border: 15px solid green;
+    position: relative;
+    /* margin: 0 auto; */
+    left: 80px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .wrapper-banner {
+        max-width: 80%;
+    }
+    
+    .banner-heading {
+        font-size: 5rem;
+    }
+    
+    .banner-title {
+        font-size: 1.25rem;
+    }
+    
+    .dr-img1 {
+        width: 250px;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    
+    .dr-img2 {
+        max-width: 500px;
+        margin-left: 100px;
+    }
+    
+    .team-container {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        transform: translateY(50%);
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .wrapper-banner {
+        max-width: 70%;
+    }
+    
+    .banner-heading {
+        font-size: 6rem;
+    }
+    
+    .dr-img1 {
+        width: 276px;
+    }
+    
+    .dr-img2 {
+        max-width: 526px;
+    }
 }
