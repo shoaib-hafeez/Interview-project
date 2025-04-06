@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Row, Col, Image } from 'react-bootstrap';
-import './Banner.css'; 
+import './banner.css'; 
 import team1 from "../../../assets/images/banner-images/team1.png"
 import team2 from "../../../assets/images/banner-images/team2.png"
 import team3 from "../../../assets/images/banner-images/team3.png"
